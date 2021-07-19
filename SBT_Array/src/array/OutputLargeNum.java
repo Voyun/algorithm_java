@@ -9,7 +9,6 @@ public class OutputLargeNum {
 		for(int i=1; i<n; i++) {
 			if(arr[i] > arr[i-1]) answer.add(arr[i]);
 		}
-		
 		return answer;
 	}
 	
