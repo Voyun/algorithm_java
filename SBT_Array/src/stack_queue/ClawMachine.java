@@ -21,7 +21,6 @@ public class ClawMachine {
 				}
 			}
 		}
-		
 		return answer;
 	}
 	
