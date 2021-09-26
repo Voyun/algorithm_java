@@ -12,7 +12,7 @@ public class Selection {
 	public int[] solution(int n, int[] arr) {
 		int idx = 0; 
 		
-		for(int i=0; i<n; i++) {
+		for(int i=0; i<n-1; i++) {
 			idx = i; 
 			
 			for(int j=i+1; j<n; j++) {
